@@ -1,11 +1,14 @@
 {
-  "name": "@michaelomh/catayse",
+  "name": "@michaelomh/catalyse",
   "version": "0.0.1",
   "description": "@michaelomh common component UI Library",
   "author": "Michael Ong",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Michaelomh/catayse/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/michaelomh"
   },
   "homepage": "https://github.com/Michaelomh/catayse#readme",
   "scripts": {
