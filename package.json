@@ -25,6 +25,8 @@
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/react": "^18.0.28",
+    "cz-git": "^1.6.1",
+    "git-cz": "^4.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup": "^3.20.0",
@@ -34,5 +36,10 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   }
 }
