@@ -24,6 +24,7 @@
   "types": "dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.21.3",
+    "@chakra-ui/storybook-addon": "^4.0.16",
     "@rollup/plugin-commonjs": "^24.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
@@ -50,5 +51,11 @@
     "commitizen": {
       "path": "node_modules/cz-git"
     }
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.5.3",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "framer-motion": "^10.9.1"
   }
 }
