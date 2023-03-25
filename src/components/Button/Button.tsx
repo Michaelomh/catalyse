@@ -1,3 +1,4 @@
+import { Button as ChakraButton } from '@chakra-ui/react';
 import React from 'react';
 import * as styles from './Button.styles';
 
@@ -6,5 +7,9 @@ export interface ButtonProps {
 }
 
 export const Button = ({ test }: ButtonProps) => {
-  return <button style={styles.ButtonStyle}>{test}</button>;
+  return (
+    <ChakraButton style={styles.ButtonStyle} bgColor="danger">
+      {test}
+    </ChakraButton>
+  );
 };
