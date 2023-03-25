@@ -6,6 +6,12 @@ Created by: Michael Ong / @Michaelomh
 
 Catalyse is a Common component library built on top of Chakra-UI.
 
+## How to Publish Catalyse
+
+1. Catalyse follows [semantic versioning](https://semver.org/), as such before we publish we need to increment appropriately for either the MAJOR, MINOR, or PATCH version in `package.json`
+2. Run the following: `npm publish`
+3. Check if your version has been upgraded in [Github](https://github.com/users/Michaelomh/packages/npm/package/catalyse)
+
 ## Libraries used
 
 - Storybook
