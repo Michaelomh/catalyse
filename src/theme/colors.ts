@@ -1,3 +1,4 @@
+// TODO: update colors after completing design tokens
 export default {
   black: '#2d3436',
   grey: '#dfe6e9',
