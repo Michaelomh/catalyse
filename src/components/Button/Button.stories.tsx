@@ -1,16 +1,30 @@
 import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react';
 
 import { Button } from './Button';
 
-export default {
-  title: 'Atoms/Button',
+const meta = {
+  title: 'Action/Button',
   component: Button,
-} as ComponentMeta<typeof Button>;
+} satisfies Meta<typeof Button>;
 
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
+export default meta;
+type Story = StoryObj<typeof Button>;
 
-export const Primary = Template.bind({});
-Primary.args = {
-  test: 'Button Test',
+// Stories start below =======
+
+// Controls story
+export const Controls: Story = {
+  args: {
+    test: 'Controls',
+  },
+};
+
+// Kitchen Sink story
+export const KitchenSink: Story = {
+  parameters: {
+    layout: 'fullscreen',
+    options: { showPanel: false },
+  },
+  render: () => <Button test="Kitchen Sink" />,
 };
