@@ -1,4 +1,4 @@
-export default {
+export const spacing = {
   0.5: '4px',
   1: '8px',
   1.5: '12px',
@@ -13,7 +13,10 @@ export default {
   6: '48px',
   6.5: '52px',
   7: '56px',
+  7.5: '50px',
   8: '64px',
+  8.5: '68px',
   9: '72px',
+  9.5: '76px',
   10: '80px',
 };
