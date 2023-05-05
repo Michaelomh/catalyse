@@ -5,10 +5,8 @@ export const colors = {
   transparent: 'transparent',
   current: 'currentColor',
   black: '#000000',
-  // white: '#FFFFFF',
-  whiteAlpha: {},
-  white: {
-    '': '#F56565',
+  white: '#FFFFFF',
+  greyscale: {
     50: 'rgba(255, 255, 255, 0.04)',
     100: 'rgba(255, 255, 255, 0.06)',
     200: 'rgba(255, 255, 255, 0.08)',
@@ -20,20 +18,7 @@ export const colors = {
     800: 'rgba(255, 255, 255, 0.80)',
     900: 'rgba(255, 255, 255, 0.92)',
   },
-  blackAlpha: {
-    50: 'rgba(0, 0, 0, 0.04)',
-    100: 'rgba(0, 0, 0, 0.06)',
-    200: 'rgba(0, 0, 0, 0.08)',
-    300: 'rgba(0, 0, 0, 0.16)',
-    400: 'rgba(0, 0, 0, 0.24)',
-    500: 'rgba(0, 0, 0, 0.36)',
-    600: 'rgba(0, 0, 0, 0.48)',
-    700: 'rgba(0, 0, 0, 0.64)',
-    800: 'rgba(0, 0, 0, 0.80)',
-    900: 'rgba(0, 0, 0, 0.92)',
-  },
-  gray: {
-    50: '#F7FAFC',
+  grey: {
     100: '#EDF2F7',
     200: '#E2E8F0',
     300: '#CBD5E0',
@@ -44,8 +29,7 @@ export const colors = {
     800: '#1A202C',
     900: '#171923',
   },
-  danger: {
-    50: '#FFF6F6',
+  red: {
     100: '#FED7D7',
     200: '#FEB2B2',
     300: '#FC8181',
@@ -57,7 +41,6 @@ export const colors = {
     900: '#63171B',
   },
   orange: {
-    50: '#FFFAF0',
     100: '#FEEBC8',
     200: '#FBD38D',
     300: '#F6AD55',
@@ -69,7 +52,6 @@ export const colors = {
     900: '#652B19',
   },
   yellow: {
-    50: '#FFFFF0',
     100: '#FEFCBF',
     200: '#FAF089',
     300: '#F6E05E',
@@ -81,7 +63,6 @@ export const colors = {
     900: '#5F370E',
   },
   green: {
-    50: '#F0FFF4',
     100: '#C6F6D5',
     200: '#9AE6B4',
     300: '#68D391',
@@ -93,7 +74,6 @@ export const colors = {
     900: '#1C4532',
   },
   teal: {
-    50: '#E6FFFA',
     100: '#B2F5EA',
     200: '#81E6D9',
     300: '#4FD1C5',
@@ -105,7 +85,6 @@ export const colors = {
     900: '#1D4044',
   },
   blue: {
-    50: '#ebf8ff',
     100: '#bee3f8',
     200: '#90cdf4',
     300: '#63b3ed',
@@ -117,7 +96,6 @@ export const colors = {
     900: '#1A365D',
   },
   cyan: {
-    50: '#EDFDFD',
     100: '#C4F1F9',
     200: '#9DECF9',
     300: '#76E4F7',
@@ -129,7 +107,6 @@ export const colors = {
     900: '#065666',
   },
   purple: {
-    50: '#FAF5FF',
     100: '#E9D8FD',
     200: '#D6BCFA',
     300: '#B794F4',
@@ -141,7 +118,6 @@ export const colors = {
     900: '#322659',
   },
   pink: {
-    50: '#FFF5F7',
     100: '#FED7E2',
     200: '#FBB6CE',
     300: '#F687B3',
