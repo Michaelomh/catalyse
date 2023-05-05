@@ -14,9 +14,6 @@ module.exports = {
   features: {
     emotionAlias: false,
   },
-  typescript: {
-    reactDocgen: false,
-  },
   docs: {
     autodocs: false,
   },
