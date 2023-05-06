@@ -1,18 +1,66 @@
-export const textStyles = {
-  display1: {}, // for main page
+/**
+ *   display1: {}, // for main page
   display2: {},
   display3: {},
   code1: {}, // for inline code snippets and smaller code elements
   code2: {}, // for large code snippets and larger code elements
-  heading1: {}, // for heading 1
-  heading2: {}, // for heading 2
-  heading3: {}, // for heading 3
-  subheading1: {}, // meant to be the subheading for heading1
-  subheading2: {}, // meant to be the subheading for heading2
-  subheading3: {}, // meant to be the subheading for heading3
-  body1: {}, // Main body text, for most
-  body2: {},
-  body3: {},
+ */
+
+export const textStyles = {
+  heading1: {
+    fontFamily: 'heading',
+    lineHeight: '40px',
+    fontSize: '32px',
+    fontWeight: 400,
+  }, // for heading 1
+  heading2: {
+    fontFamily: 'heading',
+    lineHeight: '36px',
+    fontSize: '28px',
+    fontWeight: 400,
+  }, // for heading 2
+  heading3: {
+    fontFamily: 'heading',
+    lineHeight: '32px',
+    fontSize: '24px',
+    fontWeight: 400,
+  }, // for heading 3
+  subheading1: {
+    fontFamily: 'heading',
+    lineHeight: '28px',
+    fontSize: '22px',
+    fontWeight: 500,
+  }, // meant to be the subheading for heading1
+  subheading2: {
+    fontFamily: 'heading',
+    lineHeight: '24px',
+    fontSize: '15px',
+    fontWeight: 500,
+  }, // meant to be the subheading for heading2
+  subheading3: {
+    fontFamily: 'heading',
+    lineHeight: '20px',
+    fontSize: '14px',
+    fontWeight: 500,
+  }, // meant to be the subheading for heading3
+  body1: {
+    fontFamily: 'body',
+    lineHeight: '24px',
+    fontSize: '16px',
+    fontWeight: 400,
+  }, // Main body text, for most
+  body2: {
+    fontFamily: 'body',
+    lineHeight: '20px',
+    fontSize: '14px',
+    fontWeight: 400,
+  },
+  body3: {
+    fontFamily: 'body',
+    lineHeight: '16px',
+    fontSize: '12px',
+    fontWeight: 400,
+  },
 };
 
 /**
@@ -20,8 +68,8 @@ export const textStyles = {
  * @mixin
  */
 export const fonts = {
-  title: 'Inter, sans-serif',
-  body: 'Jost, sans-serif',
+  heading: 'Nunito, sans-serif',
+  body: 'Inter, sans-serif',
   mono: 'Source Code Pro, monospace',
 };
 
