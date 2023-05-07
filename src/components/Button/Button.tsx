@@ -4,29 +4,26 @@ import * as styles from './Button.styles';
 import { ButtonProps } from './Button.types';
 
 export const Button = ({
-  size,
-  colorScheme,
-  variant,
-  isActive,
-  isDisabled,
-  isLoading,
+  size = 'md',
+  colorScheme = 'blue',
+  variant = 'filled',
+  isDisabled = false,
+  isLoading = false,
   loadingText,
   spinner,
   spinnerPlacement,
-  iconSpacing,
+  iconSpacing = 1,
   leftIcon,
   rightIcon,
   onClick,
-  type,
+  type = 'button',
   children,
 }: React.PropsWithChildren<ButtonProps>) => {
   return (
     <ChakraButton
-      style={styles.ButtonStyle}
       size={size}
       colorScheme={colorScheme}
       variant={variant}
-      isActive={isActive}
       isDisabled={isDisabled}
       isLoading={isLoading}
       loadingText={loadingText}
@@ -37,6 +34,7 @@ export const Button = ({
       rightIcon={rightIcon}
       onClick={onClick}
       type={type}
+      {...styles.ButtonStyle({ variant, colorScheme, isDisabled, isLoading, size })}
     >
       {children}
     </ChakraButton>
