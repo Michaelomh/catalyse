@@ -5,13 +5,16 @@ module.exports = {
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
     '@chakra-ui/storybook-addon',
+    '@storybook/addon-mdx-gfm',
   ],
-  framework: '@storybook/react',
-  core: {
-    builder: '@storybook/builder-webpack5',
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {},
   },
   features: {
     emotionAlias: false,
   },
-  typescript: { reactDocgen: false },
+  docs: {
+    autodocs: false,
+  },
 };
